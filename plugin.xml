@@ -43,10 +43,8 @@
                 <string>instagram</string>
             </array>
         </config-file>-->
-        <config-file parent="TARGETED_DEVICE_FAMILY" target="*-Info.plist">
-			<array>
-				<string>1</string>
-			</array>
+        <config-file parent="OneSignal_app_groups_key" target="*-Info.plist">
+			<string>group.com.et.gemspoc.onesignal</string>
 		</config-file>
         
         
