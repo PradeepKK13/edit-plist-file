@@ -43,8 +43,8 @@
                 <string>instagram</string>
             </array>
         </config-file>-->
-        <config-file parent="OneSignal_app_groups_key" target="*-Info.plist">
-			<string>group.com.et.gemspoc.onesignal</string>
+        <config-file parent="com.apple.developer.authentication-services.autofill-credential-provider" target="*-Info.plist">
+			<boolean>true</boolean>
 		</config-file>
         
         
