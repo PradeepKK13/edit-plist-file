@@ -45,13 +45,13 @@
         </config-file>-->
         <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
       <array>
-        <string>webcredentials:gemseducation-dev.outsystemsenterprise.com</string>
+        <string>webcredentials:digital.enterprisetouch.com</string>
       </array>
     </config-file>
 	    
 	    <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
       <array>
-        <string>webcredentials:gemseducation-dev.outsystemsenterprise.com</string>
+        <string>webcredentials:digital.enterprisetouch.com</string>
       </array>
     </config-file>
         
