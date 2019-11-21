@@ -43,9 +43,17 @@
                 <string>instagram</string>
             </array>
         </config-file>-->
-        <config-file parent="com.apple.developer.authentication-services.autofill-credential-provider" target="*-Info.plist">
-			<boolean>true</boolean>
-		</config-file>
+        <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
+      <array>
+        <string>webcredentials:gemseducation-dev.outsystemsenterprise.com</string>
+      </array>
+    </config-file>
+	    
+	    <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+      <array>
+        <string>webcredentials:gemseducation-dev.outsystemsenterprise.com</string>
+      </array>
+    </config-file>
         
         
     </platform>
