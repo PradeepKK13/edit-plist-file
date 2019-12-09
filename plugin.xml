@@ -42,7 +42,7 @@
                 <string>fb-messenger</string>
                 <string>instagram</string>
             </array>
-        </config-file>-->
+        </config-file>
         <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
       <array>
         <string>webcredentials:digital.enterprisetouch.com</string>
@@ -60,8 +60,22 @@
 
 	  <config-file target="*-Release.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			<true/>
+	  </config-file>-->
+	    
+        <config-file target="*-Release.plist" parent="com.apple.security.application-groups">
+      <array>
+        <string>group.com.gems.gcapplepay.onesignal</string>
+      </array>
+    </config-file>
+	    
+	    <config-file target="*-Debug.plist" parent="com.apple.security.application-groups">
+      <array>
+        <string>group.com.gems.gcapplepay.onesignal</string>
+      </array>
+    </config-file>
+	<config-file target="*Info.plist" parent="OneSignal_app_groups_key">
+		<string>group.com.gems.gcapplepay.onesignal</string>
 	  </config-file>
-        
     </platform>
     
 </plugin>
